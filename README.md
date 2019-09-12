@@ -37,7 +37,7 @@ $ sudo rdmsr -a -d 01xFC
 
 ```
 
-Switch off the bd-prochot bit by subtracting 1 from the decimal output above. Do not copy paste the below command, but 
+Switch off the bd-prochot bit by subtracting 1 from the decimal output above. Do not copy paste the below command, but take the output of above command, subtract 1 and replace `2359388` with that.
 
 ```
 $ sudo wrmsr 0x1FC 2359388
@@ -98,3 +98,6 @@ analyzing CPU 3:
   current CPU frequency is 2.70 GHz.
 
 ```
+
+
+Please star this repo if it worked for you! :)
