@@ -28,7 +28,7 @@ $ sudo modprobe msr
 Read 0x1FC register on all cores and output as decimal
 
 ```
-$ sudo rdmsr -a -d 01xFC
+$ sudo rdmsr -a -d 0x1FC
 
 2359389
 2359389
